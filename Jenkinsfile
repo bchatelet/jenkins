@@ -24,8 +24,8 @@ pipeline {
         string(name: 'PARAM_IMAGE_NAME', defaultValue: 'alpinehelloworld', description: 'Image Name')
         string(name: 'PARAM_PORT_EXPOSED', defaultValue: '80', description: 'APP EXPOSED PORT')  
         string(name: 'PARAM_APP_NAME', defaultValue: 'eazytraining', description: 'App Name')
-        string(name: '{PARAM_IMAGE_TAG', defaultValue: 'latest', description: 'Image Tag')     
-        string(name: '{PARAM_INTERNAL_PORT', defaultValue: '5000', description: 'Internal Port')     
+        string(name: 'PARAM_IMAGE_TAG', defaultValue: 'latest', description: 'Image Tag')     
+        string(name: 'PARAM_INTERNAL_PORT', defaultValue: '5000', description: 'Internal Port')     
     }
     agent none
     stages {
