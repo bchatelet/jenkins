@@ -26,6 +26,7 @@ pipeline {
         string(name: 'PARAM_APP_NAME', defaultValue: 'eazytraining', description: 'App Name')
         string(name: 'PARAM_IMAGE_TAG', defaultValue: 'latest', description: 'Image Tag')     
         string(name: 'PARAM_INTERNAL_PORT', defaultValue: '5000', description: 'Internal Port')     
+        string(name: '{PARAM_DOCKERHUB_ID', defaultValue: 'bchatelet', description: 'Docker Hub Id')   
     }
     agent none
     stages {
